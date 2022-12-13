@@ -1,5 +1,7 @@
 import Chart from "../components/chart";
 import FeaturedInfo from "../components/featuredInfo";
+import WidgetLG from "../components/widgetLG";
+import WidgetSM from "../components/widgetSM";
 
 const Home = () => {
   return (
@@ -9,7 +11,18 @@ const Home = () => {
         <FeaturedInfo></FeaturedInfo>
         <FeaturedInfo></FeaturedInfo>
       </div>
-      <Chart></Chart>
+      <div className="mb-6">
+        <Chart></Chart>
+      </div>
+
+      <div className="flex gap-4">
+        <div className="flex-1 ">
+          <WidgetSM />
+        </div>
+        <div className="flex-[2_2_0%]">
+          <WidgetLG />
+        </div>
+      </div>
     </section>
   );
 };
