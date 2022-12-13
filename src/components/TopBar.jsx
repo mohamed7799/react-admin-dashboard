@@ -9,7 +9,7 @@ import { Badge, Avatar } from "@mui/material";
 
 const TopBar = () => {
   return (
-    <div className="text-purple-600 bg-white flex justify-between  py-6 px-8 sticky top-0">
+    <div className="text-purple-600 bg-white flex justify-between  py-6 px-8 sticky top-0 z-50">
       <div className="text-4xl font-bold ">
         Admin <LaptopChromebook fontSize="36px" />
       </div>
