@@ -1,5 +1,6 @@
 import SideBar from "./components/sideBar";
 import TopBar from "./components/TopBar";
+import Home from "./pages/home";
 
 const App = () => {
   return (
@@ -10,7 +11,9 @@ const App = () => {
           <SideBar></SideBar>
         </div>
 
-        <div className="flex-[4_4_0%] ">other content</div>
+        <div className="flex-[4_4_0%] ">
+          <Home></Home>
+        </div>
       </div>
     </main>
   );
