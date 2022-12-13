@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .sideBar-menu-title {
+    @apply text-gray-400 mb-3;
+  }
+
+  .sideBar-menu-list-item {
+    @apply flex gap-2 hover:bg-slate-200 hover:rounded-md p-3 cursor-pointer;
+  }
+}
