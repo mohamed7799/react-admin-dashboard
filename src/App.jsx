@@ -1,6 +1,8 @@
+import { Route, Routes } from "react-router-dom";
 import SideBar from "./components/sideBar";
 import TopBar from "./components/TopBar";
 import Home from "./pages/home";
+import Users from "./pages/usres";
 
 const App = () => {
   return (
@@ -12,7 +14,10 @@ const App = () => {
         </div>
 
         <div className="flex-[4_4_0%] ">
-          <Home></Home>
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/users" element={<Users />} />
+          </Routes>
         </div>
       </div>
     </main>
