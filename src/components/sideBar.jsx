@@ -18,7 +18,7 @@ const SideBar = () => {
       <div>
         <h3 className="sideBar-menu-title ">Dashboard</h3>
         <ul className=" text-gray-700">
-          <Link to="/home">
+          <Link to="/">
             <li className="sideBar-menu-list-item">
               <LineStyle />
 

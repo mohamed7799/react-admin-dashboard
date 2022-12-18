@@ -44,7 +44,7 @@ const Users = () => {
       width: 200,
       renderCell: (params) => (
         <div className="flex gap-2">
-          <Link to={"/users/" + params.row.id}>
+          <Link to={"/user/" + params.row.id}>
             <button className="bg-green-500 font-bold text-white px-3 py-1 rounded-md">
               Edit <Edit fontSize="small"></Edit>
             </button>

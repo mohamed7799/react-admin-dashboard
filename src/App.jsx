@@ -3,6 +3,7 @@ import SideBar from "./components/sideBar";
 import TopBar from "./components/TopBar";
 import Home from "./pages/home";
 import Users from "./pages/usres";
+import User from "./pages/user";
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
 
         <div className="flex-[4_4_0%] ">
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/users" element={<Users />} />
+            <Route path="/user/:id" element={<User />} />
           </Routes>
         </div>
       </div>
