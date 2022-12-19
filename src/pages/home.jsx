@@ -7,9 +7,24 @@ const Home = () => {
   return (
     <section className="p-3">
       <div className="flex gap-5 mb-6">
-        <FeaturedInfo></FeaturedInfo>
-        <FeaturedInfo></FeaturedInfo>
-        <FeaturedInfo></FeaturedInfo>
+        <FeaturedInfo
+          type="Revanue"
+          value="1,200"
+          precentage="+%1.5"
+          trend={true}
+        ></FeaturedInfo>
+        <FeaturedInfo
+          type="Sales"
+          value="3,200"
+          precentage="-%2.5"
+          trend={false}
+        ></FeaturedInfo>
+        <FeaturedInfo
+          type="Cost"
+          value="5,000"
+          precentage="+%1.5"
+          trend={true}
+        ></FeaturedInfo>
       </div>
       <div className="mb-6">
         <Chart></Chart>
