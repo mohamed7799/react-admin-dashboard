@@ -7,14 +7,17 @@ import {
   LocationSearching,
   Upload,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 const User = () => {
   return (
     <div className="p-4">
       <div className="flex justify-between mb-5">
         <h2 className="font-bold text-2xl ">Edit User</h2>
-        <button className="py-2 px-4 bg-purple-600 rounded-md text-white font-bold">
-          Create
-        </button>
+        <Link to="/newUser">
+          <button className="py-2 px-4 bg-purple-600 rounded-md text-white font-bold">
+            Create
+          </button>
+        </Link>
       </div>
 
       <div className="flex gap-3">
