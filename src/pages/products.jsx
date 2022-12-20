@@ -3,10 +3,10 @@ import { Avatar } from "@mui/material";
 import { Delete, Edit } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { usersData } from "../data/dummyData";
+import { productsData } from "../data/dummyData";
 
-const Users = () => {
-  const [data, setData] = useState(usersData);
+const Products = () => {
+  const [data, setData] = useState(productsData);
 
   const deleteUser = (id) => {
     setData(data.filter((item) => item.id !== id));
@@ -15,17 +15,17 @@ const Users = () => {
   const columns = [
     { field: "id", headerName: "ID", width: 60 },
     {
-      field: "user",
-      headerName: "User",
+      field: "productName",
+      headerName: "Name",
       width: 200,
       renderCell: (params) => (
         <div className="flex gap-2 items-center">
-          <Avatar alt="Remy Sharp" src={params.row.avatar} />
-          {params.row.username}
+          <Avatar alt="product" src={params.row.img} />
+          {params.row.productName}
         </div>
       ),
     },
-    { field: "email", headerName: "Email", width: 200 },
+    { field: "stock", headerName: "Stock", width: 200 },
     {
       field: "status",
       headerName: "Status",
@@ -33,8 +33,8 @@ const Users = () => {
       width: 120,
     },
     {
-      field: "transactions",
-      headerName: "Transactions",
+      field: "price",
+      headerName: "Price",
 
       width: 120,
     },
@@ -44,7 +44,7 @@ const Users = () => {
       width: 200,
       renderCell: (params) => (
         <div className="flex gap-2">
-          <Link to={"/user/" + params.row.id}>
+          <Link to={"/product/" + params.row.id}>
             <button className="bg-green-500 font-bold text-white px-3 py-1 rounded-md">
               Edit <Edit fontSize="small"></Edit>
             </button>
@@ -74,4 +74,4 @@ const Users = () => {
   );
 };
 
-export default Users;
+export default Products;

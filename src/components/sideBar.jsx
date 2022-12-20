@@ -43,10 +43,12 @@ const SideBar = () => {
               <PersonOutline /> <span>Users</span>
             </li>
           </Link>
-          <li className="sideBar-menu-list-item">
-            <Storefront />
-            <span> Products</span>
-          </li>
+          <Link to="/products">
+            <li className="sideBar-menu-list-item">
+              <Storefront />
+              <span> Products</span>
+            </li>
+          </Link>
           <li className="sideBar-menu-list-item">
             <AttachMoney />
             <span> Transactions</span>

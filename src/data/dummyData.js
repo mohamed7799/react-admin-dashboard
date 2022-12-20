@@ -1,4 +1,4 @@
-export const rows = [
+export const usersData = [
   {
     id: 1,
     username: "sam mick",
@@ -88,5 +88,88 @@ export const rows = [
     email: "sam@gmail.com",
     status: "active",
     transactions: "$200.00",
+  },
+];
+
+export const productsData = [
+  {
+    id: 1,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 2,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 3,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 4,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 5,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 6,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 7,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 8,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 9,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
+  },
+  {
+    id: 10,
+    productName: "Air pods",
+    img: "https://images.unsplash.com/photo-1658581087930-effb5cceb6c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    stock: 123,
+    status: "active",
+    price: "$100.00",
   },
 ];
