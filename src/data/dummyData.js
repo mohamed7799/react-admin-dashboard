@@ -173,3 +173,53 @@ export const productsData = [
     price: "$100.00",
   },
 ];
+
+export const HomeData = [
+  {
+    name: "Jan",
+    "Active User": 4000,
+  },
+  {
+    name: "Feb",
+    "Active User": 3000,
+  },
+  {
+    name: "Mar",
+    "Active User": 2500,
+  },
+  {
+    name: "Apr",
+    "Active User": 6000,
+  },
+  {
+    name: "May",
+    "Active User": 1000,
+  },
+  {
+    name: "Jun",
+    "Active User": 8000,
+  },
+  {
+    name: "Jul",
+    "Active User": 5000,
+  },
+];
+
+export const productData = [
+  {
+    name: "Jan",
+    "Sales": 4000,
+  },
+  {
+    name: "Feb",
+    "Sales": 3000,
+  },
+  {
+    name: "Mar",
+    "Sales": 2500,
+  },
+  {
+    name: "Apr",
+    "Sales": 6000,
+  },
+];

@@ -2,7 +2,7 @@ import Chart from "../components/chart";
 import FeaturedInfo from "../components/featuredInfo";
 import WidgetLG from "../components/widgetLG";
 import WidgetSM from "../components/widgetSM";
-
+import { HomeData } from "../data/dummyData";
 const Home = () => {
   return (
     <section className="p-3">
@@ -27,7 +27,11 @@ const Home = () => {
         ></FeaturedInfo>
       </div>
       <div className="mb-6">
-        <Chart></Chart>
+        <Chart
+          title="User Analytics"
+          data={HomeData}
+          dataKey="Active User"
+        ></Chart>
       </div>
 
       <div className="flex gap-4">
